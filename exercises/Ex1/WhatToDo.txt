@@ -1,0 +1,33 @@
+1. Convers ̃ao de n ́umero fracion ́ario da base 10 para a base 2
+Escreva uma fun ̧c ̃ao no SciLab cujo parˆametro de entrada  ́e um n ́umero fracion ́ario positivo
+na base 10 e o parˆametro de sa ́ıda  ́e a convers ̃ao deste n ́umero para a base 2.
+Por exemplo, se o dado de entrada  ́e .625 (na base 10) a sa ́ıda  ́e .101 (na base 2), este exemplo
+est ́a descrito no slide 20 da Aula 01 de C ́alculo Num ́erico. Um esbo ̧co do algoritmo encontra-se
+no slide 23 da Aula 01 de C ́alculo Num ́erico.
+
+Escreva um “script” no Scilab que contenha esta fun ̧c ̃ao e seu uso para a convers ̃ao dos seguintes
+n ́umeros fracion ́arios na base 10 para a base 2: (.84375)10 e (.4)10.
+
+• Para a entrega do trabalho vocˆe dever ́a fazer o upload do arquivo .sce (que cont ́em o “script”
+com a fun ̧c ̃ao e os dados de uso da fun ̧c ̃ao) e do “print” do console com a execu ̧c ̃ao do “script”
+(mostrando os resultados obtidos).
+
+2. Convers ̃ao de n ́umero fracion ́ario da base 2 para a base 10
+Escreva uma fun ̧c ̃ao no SciLab cujo parˆametro de entrada  ́e um n ́umero fracion ́ario positivo
+na base 2 e o parˆametro de sa ́ıda  ́e a convers ̃ao deste n ́umero para a base 10.
+Por exemplo, se o dado de entrada  ́e .11001 (na base 2) a sa ́ıda  ́e .78125 (na base 10), este
+exemplo est ́a descrito no slide 26 da Aula 01 de C ́alculo Num ́erico. Um esbo ̧co do algoritmo
+encontra-se no slide 27 da Aula 01 de C ́alculo Num ́erico.
+Escreva um “script” no Scilab que contenha esta fun ̧c ̃ao e o seu uso para a convers ̃ao os seguintes
+n ́umeros fracion ́arios na base 2 para a base 10: Por exemplo, (.10111)2 e (.1010101)2.
+
+• Para a entrega do trabalho vocˆe dever ́a fazer o upload do arquivo .sce (que cont ́em o “script”
+com a fun ̧c ̃ao e os dados de uso da fun ̧c ̃ao) e do “print” do console com a execu ̧c ̃ao do “script”
+(mostrando os resultados obtidos).
+Instru ̧c ̃oes para nomear os arquivos:
+
+• os nomes dos arquivos contendo os “scripts” de cada exerc ́ıcio devem seguir os modelos:
+nome sobrenome trab1 ex1 DEC to BIN.sce e nome sobrenome trab1 ex2 BIN to DEC.sce
+
+• os nomes dos arquivos contendo os “prints” da execu ̧c ̃ao de cada exerc ́ıcio devem seguir o modelo:
+nome sobrenome trab1 ex1 print.jpg e nome sobrenome trab1 ex2 print.jpg
