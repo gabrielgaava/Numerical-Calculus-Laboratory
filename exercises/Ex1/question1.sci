@@ -1,3 +1,4 @@
+// Inteiro
 function [result] = base10ToBase2(n)
 
   result = ""
@@ -16,5 +17,31 @@ function [result] = base10ToBase2(n)
 
 endfunction
 
-Base10 = 55
-Base2 = base10ToBase2(Base10)
+
+// Decimal
+function [result] = base10ToBase2(n)
+
+  result = ")"
+  
+  while n ~= 0
+    if n * 2 >= 1 then
+      result = "1" + result 
+      
+    else
+       result = "0" + result
+  
+    end
+    n = (n * 2) - int(n * 2)
+  
+  end
+
+  result = "(." + result
+
+endfunction
+
+
+
+
+
+
+
