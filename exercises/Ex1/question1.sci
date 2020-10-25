@@ -21,7 +21,7 @@ endfunction
 // Converte parte Decimal
 function [result] = decBase10ToBase2(n)
 
-  result = ")"
+  result = ""
   
   while n ~= 0
     if n * 2 >= 1 then
@@ -35,17 +35,31 @@ function [result] = decBase10ToBase2(n)
   
   end
 
-  result = "(." + result
+endfunction
+
+
+function [result] = base10ToBase2(n)
+  
+  decPart = n - int(n)
+  intPart = n - decPart
+
+  intString = ""
+  decString = ""
+
+  if n > 1
+    intString = intBase10ToBase2(intPart)
+    decString = decBase10ToBase2(decPart)
+
+  else
+    intString = "0"
+    decString = decBase10ToBase2(decPart)
+  end
+
+  result = intString + "." + decString
+
 
 endfunction
 
-x = decBase10ToBase2(0.84375)
-y = decBase10ToBase2(0.4)
-
-
-
-
-
-
-
-
+x = base10ToBase2(0.84375)
+y = base10ToBase2(0.4)
+z = base10ToBase2(5.55)
