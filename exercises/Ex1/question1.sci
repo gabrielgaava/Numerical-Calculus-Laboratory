@@ -1,5 +1,5 @@
-// Inteiro
-function [result] = base10ToBase2(n)
+// Converte parte Inteira
+function [result] = intBase10ToBase2(n)
 
   result = ""
   
@@ -18,8 +18,8 @@ function [result] = base10ToBase2(n)
 endfunction
 
 
-// Decimal
-function [result] = base10ToBase2(n)
+// Converte parte Decimal
+function [result] = decBase10ToBase2(n)
 
   result = ")"
   
@@ -38,6 +38,10 @@ function [result] = base10ToBase2(n)
   result = "(." + result
 
 endfunction
+
+x = decBase10ToBase2(0.84375)
+y = decBase10ToBase2(0.4)
+
 
 
 
